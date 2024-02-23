@@ -65,7 +65,8 @@ public class PitapatSnack {
 		}
 	    if(count -1 == list.length) {
 	    	return "Nice";
-	    }
+	    } 
+	    //
 	    else return "Sad";
 	}
 }
