@@ -28,7 +28,7 @@ public class Queue {
 		for(int i = 0; i < Num; i++) {
 			st = new StringTokenizer(bf.readLine());
 			String command = st.nextToken();
-			if(command.equals("push")) {
+			if(command.equals("push")) { 
 				que.add(Integer.parseInt(st.nextToken()));
 			}
 			if(command.equals("pop")) {
